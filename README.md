@@ -5,7 +5,7 @@ Dice Game developed for Android
 
 # Created by Maj Alshibly
 
-
+![alt text](https://github.com/Maj100/Android_DiceGame/blob/master/mainimage.png)
 
 
 
