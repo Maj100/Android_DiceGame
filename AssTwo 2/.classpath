@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/androidTest/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/r/debug"/>
+	<classpathentry kind="src" path="app/src/main/java"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/debug/classes_3a04c6ed8ec8904d448b01513f5f14e1339d7cac.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/debug/classes_b1c0f993d777010370039ac37bcc507a9de0ab88.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/debug/classes_cb8e58663cb0474160ed0ce64f25da433a746713.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/debug/classes_eb06796978781bd9cf916b059be8baa8bfa6e51b.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/debug/debug_48b0fcdd31cbbde72620b59f813486ec57b9fa48.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_43b6d046dbdde6caca2276634b97205a890a0a14.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_e45d073036647d270ca0570726220bf0a047393b.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="app/build/intermediates/classes/debug"/>
+</classpath>

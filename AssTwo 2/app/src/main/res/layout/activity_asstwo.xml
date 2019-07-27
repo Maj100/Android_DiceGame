@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="uk.ac.ljmu.asstwo.AssTwo"
+    android:weightSum="1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <uk.ac.ljmu.asstwo.OGLView
+            android:id="@+id/oglView"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.48" />
+
+        <uk.ac.ljmu.asstwo.OGL2View
+            android:id="@+id/oglView1"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.40" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnRoll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="rollDice"
+            android:text="Stop Roll" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_reload"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:onClick="reloadGameSate"
+            android:text="Reload Game" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:onClick="saveGameState"
+            android:text="Save Game" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/totalTurn"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Total Turn" />
+
+        <TextView
+            android:id="@+id/turnRemaining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Remaining Turn" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/player1TotalTurn"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Total Turn" />
+
+        <TextView
+            android:id="@+id/player2TotalTurn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="Remaining Turn" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/playerNameForTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="Turn Player" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/player1Value"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:ems="10"
+            android:text="Player 1 Value: " />
+
+        <TextView
+            android:id="@+id/player2Value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textStyle="bold"
+            android:text="Player 2 Value: " />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/gameState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="Game State: Playing" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:onClick="resetGame"
+        android:text="Reset Game" />
+        <Button
+            android:id="@+id/btnEndGame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="endGame"
+            android:text="End Game" />
+        </LinearLayout>
+</LinearLayout>
