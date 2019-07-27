@@ -6,8 +6,8 @@ Dice Game developed for Android
 # Created by Maj Alshibly
 
 
+![alt text](https://i.imgur.com/1G9HAI3.png)
 
-![alt text]([https://i.imgur.com/1G9HAI3.png](https://i.imgur.com/1G9HAI3.png)
 
 1. Two dice that roll which have been animated to show a rolling effect
 
