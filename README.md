@@ -3,7 +3,7 @@ Dice Game developed for Android
 
 # Dice Game
 
-# Created by Maj Alshibly
+# Created by Maj A
 
 ![alt text](https://github.com/Maj100/Android_DiceGame/blob/master/mainimage.png)
 
